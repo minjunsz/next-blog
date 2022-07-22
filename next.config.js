@@ -9,7 +9,8 @@ const nextConfig = {
       unoptimized: true,
     },
   },
-  assetPrefix: !debug ? '/next-blog/' : '',
+  // assetPrefix: !debug ? '/next-blog/' : '',
+  basePath: !debug ? '/next-blog' : '',
 }
 
 module.exports = nextConfig
