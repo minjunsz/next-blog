@@ -21,13 +21,14 @@ const ReplaceCodeSection = ({ inline, className, children, ...props }: CodeBlock
     if (!inline && language) {
         return (
             <SyntaxHighlighter
-                children={String(children).replace(/\n$/, '')}
                 style={atomDark}
                 language={language}
                 PreTag="div"
                 wrapLongLines={true}
                 {...props}
-            />);
+            >
+                {String(children).replace(/\n$/, '')}
+            </SyntaxHighlighter>);
     } else {
         return (
             <code className={className} {...props}>

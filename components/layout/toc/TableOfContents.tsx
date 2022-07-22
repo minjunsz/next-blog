@@ -46,7 +46,7 @@ export const TableOfContents = () => {
 
     return (
         <nav aria-label="Table of Contents" className='w-fit'>
-            <div className='font-bold text-neutral-500 dark:text-neutral-400'>What's on this Page</div >
+            <div className='font-bold text-neutral-500 dark:text-neutral-400'>What&apos;s on this Page</div >
             <ul>
                 {nestedHeadings.items.map(h => <Headings rootHeading={h} activeId={activeId} key={h.id} />)}
             </ul>
