@@ -1,0 +1,76 @@
+.markdown {
+    font-size: .85rem;
+}
+
+.markdown h1 {
+    font-size: 2.5rem;
+    border-bottom: thin solid;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.markdown h2 {
+    font-size: 2.0rem;
+    border-bottom: thin solid;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.markdown h3 {
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+.markdown h4 {
+    font-size: 18pt;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+.markdown p {
+    padding: .3rem;
+}
+
+.markdown ul,
+.markdown ol {
+    padding-left: 1.5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.markdown li {
+    list-style: circle;
+    margin-top: .2rem;
+}
+
+.markdown p code {
+    color: coral;
+    background-color: rgba(176, 196, 222, 0.5);
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.markdown a {
+    text-decoration: underline;
+}
+
+.markdown table {
+    width: 100%;
+    border-top: 1px solid #555555;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.markdown th,
+.markdown td {
+    border-bottom: 1px solid #555555;
+    padding: .4rem;
+}
+
+.markdown hr {
+    margin-top: 1rem;
+}
