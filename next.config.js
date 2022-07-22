@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const debug = process.env.NODE_ENV !== 'production'
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -7,6 +9,7 @@ const nextConfig = {
       unoptimized: true,
     },
   },
+  assetPrefix: !debug ? '/next-blog/' : '',
 }
 
 module.exports = nextConfig
